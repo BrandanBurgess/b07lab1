@@ -14,17 +14,17 @@ public class Polynomial{
 
         Polynomial temp = new Polynomial();
 
-        if (this.polynomial.coefficients.length > sample.coefficients.length){
-            temp = this.polynomial;
-            for (int i = 0; i < sample.length; i++) {
+        if (this.coefficients.length > sample.coefficients.length){
+            temp.coefficients = this.coefficients;
+            for (int i = 0; i < sample.coefficients.length; i++) {
                 temp.coefficients[i] += sample.coefficients[i];
             } 
         }
 
         else{
             temp = sample;
-            for (int i = 0; i < this.polynomial.length; i++){
-                temp.coefficients[i] += this.polynomial.coefficients[i];
+            for (int i = 0; i < this.coefficients.length; i++){
+                temp.coefficients[i] += this.coefficients[i];
             }
         }
 
@@ -42,7 +42,7 @@ public class Polynomial{
         return count;
     }
 
-    public boolean hasroot(double root){
+    public boolean hasRoot(double root){
         return (this.evaluate(root) == 0);
     }
 
