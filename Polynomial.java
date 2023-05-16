@@ -14,7 +14,7 @@ public class Polynomial{
 
         Polynomial temp = new Polynomial();
 
-        if (this.polynomial.length > sample.length){
+        if (this.polynomial.coefficients.length > sample.coefficients.length){
             temp = this.polynomial;
             for (int i = 0; i < sample.length; i++) {
                 temp.coefficients[i] += sample.coefficients[i];
