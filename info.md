@@ -1,4 +1,4 @@
-B07 Lab 1
+B07 Lab 1: Intro to Java
 
-Introductory Lab to Git and Java
-- Create a polynomial program using classes in C.
+-Install Git and JDK
+- Create a polynomial class in Java
