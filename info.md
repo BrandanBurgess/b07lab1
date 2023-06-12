@@ -7,6 +7,6 @@ B07 Lab 2: Git Branching and Java Arrays
 
 -Separated arrays for coefficients and exponents representing polynomials
 
--Added File read and write for polynomials
+-Added file read and write for polynomials
 
 -Added method to multiply polynomials
