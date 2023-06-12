@@ -9,4 +9,4 @@ B07 Lab 2: Git Branching and Java Arrays
 
 -Added File read and write for polynomials
 
--Added function to multiply polynomials
+-Added method to multiply polynomials
